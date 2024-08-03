@@ -9,47 +9,35 @@ n01,n02,n3,n04=1,2,3.0,4.0
 a,b,c,n01MAISn02,n3VEZESn04,n04PORn02,n04MENOSn02='a','b','c',n01+n02,n3*n04,n04/n02,n04-n02
 variaveis = [n01,n02,n3,n04,aliasimportinteiroaleatorio,a,b,c,n01MAISn02,n3VEZESn04,n04PORn02,n04MENOSn02]
 vazio = [[],[],[]]
-def txtpronto():    
-    '''
-    RETORNA STRING 'txtpronto'
-    '''
-    return 'txtpronto'
-def cospe(a):
-    '''
-    EXATAMENTE IGUAL A INPUT()
-    '''
-    return input('')
-def deixainteiro(a):
-    '''
-    DEIXA UM NUMERO INTEIRO
-    '''
-    return int((input(a)))
-def tralha(a):
-    '''
-    retorna uma tralha ou seja não exibe nada
-    '''
-    return #
-funcoes = [txtpronto,cospe,deixainteiro,tralha]
+def imprime(a):
+    return input()
+def cospe(a,b=0):
+    return print('...')
+def somatoria(a,b=0):
+    return int(a)+int(b)
+somatoria(10,10)
+funcoes = [imprime,cospe,somatoria]
 dicionario = {
-    'NUMEROS' :numeros,
+    'numeros' :numeros,
     'misto':misto,
     'palavras':palavras,
     'espacos':espacos,
     'REPETIDOS':'ULTIMO',
     'REPETIDOS':'PRIMEIRO',
     'variaveis':variaveis,
-    'funcoes duvidosas':funcoes,
     'lista vazio E exclusiva':vazio,
+    'funcoes duvidoas':funcoes,
 }
 # aqui começa o dicionario de uso E que nào tem o dict com key e value exclusivo
 manipulacao = {
-    'NUMEROS' :numeros,
+    'REPETIDOS':'ULTIMO',
+    'REPETIDOS':'PRIMEIRO',
+    'numeros' :numeros,
     'misto':misto,
     'palavras':palavras,
     'espacos':espacos,
-    'REPETIDOS':'REPETIDOS02',
-    'REPETIDOS':'REPETIDOS01',
     'variaveis':variaveis,
-    'funcoes duvidosas':funcoes,
+    'lista vazio E exclusiva':vazio,
+    'funcoes duvidoas':funcoes,
     'DICIONARIO': dicionario,
 }
