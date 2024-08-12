@@ -26,7 +26,7 @@ dicionario = {
     'REPETIDOS':'PRIMEIRO',
     'variaveis':variaveis,
     'lista vazio E exclusiva':vazio,
-    'funcoes duvidoas':funcoes,
+    'funcoes duvidosas':funcoes,
 }
 # aqui começa o dicionario de uso E que nào tem o dict com key e value exclusivo
 manipulacao = {
@@ -38,6 +38,6 @@ manipulacao = {
     'espacos':espacos,
     'variaveis':variaveis,
     'lista vazio E exclusiva':vazio,
-    'funcoes duvidoas':funcoes,
+    'funcoes duvidosas':funcoes,
     'DICIONARIO': dicionario,
 }
